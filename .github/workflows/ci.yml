@@ -9,8 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      uses: denoland/deployctl@1
-      with:
-        project: lazy-badger-83
-        entrypoint: https://raw.githubusercontent.com/denoland/deno_std/88d5c1c27ea1963654c48fb196454fac37e23307/http/file_server.ts
+      - uses: denoland/deployctl@1
+        with:
+          project: lazy-badger-83
+          entrypoint: https://raw.githubusercontent.com/denoland/deno_std/88d5c1c27ea1963654c48fb196454fac37e23307/http/file_server.ts
       
