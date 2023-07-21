@@ -16,6 +16,6 @@ jobs:
       - uses: denoland/deployctl@v1
         with:
           project: small-hawk-66
-          entrypoint: https://raw.githubusercontent.com/denoland/deno_std/88d5c1c27ea1963654c48fb196454fac37e23307/http/file_server.ts
+          entrypoint: https://raw.githubusercontent.com/denoland/deno_std/b2a0642521f5323a9bd9e772fafc3f006ac7e936/http/file_server.ts
           root: .
       
